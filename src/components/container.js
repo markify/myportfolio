@@ -1,43 +1,69 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Header from './header'
-
+import {
+  FaLinkedin,
+  FaGithubSquare,
+  FaTwitterSquare,
+  FaEnvelopeSquare,
+} from 'react-icons/fa'
 import './layout.css'
-import './main.css'
+import './container.css'
 
 const Container = () => (
   <div style={{ padding: '20px' }}>
     <h1>Mark Portfolio</h1>
+    <h4>Hi, 👋 I'm Mark</h4>
     <p>
-      Hello, I'm a FullStack Developer. I strive to challenge myself everyday,
-      but I'm always happy to play around with new languages and technologies.
+      {' '}
+      I am a fullstack developer that strive to learn and take on challenges.
+      Learning new languages and technologies excites me. Feel free to contact
+      me if you would like to work on a project together, or just want to chat.
     </p>
-    <nav class="links">
+    <nav className="links">
       <ul>
-        <Link to="/"> Projects </Link>
+        <Link to="/" className="styled-link">
+          {' '}
+          Projects{' '}
+        </Link>
 
-        <Link to="/about/"> About </Link>
+        <Link to="/about/" className="styled-link">
+          {' '}
+          About{' '}
+        </Link>
 
-        <Link to="/contact/">Contact </Link>
+        <Link to="/contact/" className="styled-link">
+          Contact{' '}
+        </Link>
       </ul>
     </nav>
 
-    <ul class="menu-fa">
+    <ul className="menu-fa">
       <li>
-        <a href=""> Github </a>
+        <a href="">
+          <FaGithubSquare />
+        </a>
       </li>
 
       <li>
-        <a href=""> Linkin </a>
+        <a href="">
+          {' '}
+          <FaLinkedin />{' '}
+        </a>
       </li>
 
       <li>
-        <a href=""> Twitter </a>
+        <a href="">
+          {' '}
+          <FaTwitterSquare />{' '}
+        </a>
       </li>
 
       <li>
-        <a href=""> Email </a>
+        <a href="">
+          {' '}
+          <FaEnvelopeSquare />{' '}
+        </a>
       </li>
     </ul>
   </div>

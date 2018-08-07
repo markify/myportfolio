@@ -30,6 +30,15 @@ const IndexPage = () => (
         <h3> My Project Name</h3>
         <p> My description of my project.</p>
       </div>
+      <div style={{ padding: '20px' }}>
+        <img src="" alt="" />
+        <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
+          <Image />
+        </div>
+        <i>Github Icon</i> <i>Milestone</i>
+        <h3> My Project Name</h3>
+        <p> My description of my project.</p>
+      </div>
     </div>
   </Layout>
 )

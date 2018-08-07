@@ -6,6 +6,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Container from './container'
 import './layout.css'
+import './main.css'
+import { relative } from 'path'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -42,17 +44,19 @@ const Layout = ({ children }) => (
         >
           <div
             style={{
-              background: 'red',
+              //background: 'red',
               marginRight: '10px',
               width: '50%',
               margin: '0 auto',
+              position: 'relative',
             }}
           >
+            {' '}
             <Container />
           </div>
           <div
             style={{
-              background: 'green',
+              //background: 'green',
               marginRight: '10px',
               width: '50%',
               margin: '0 auto',
