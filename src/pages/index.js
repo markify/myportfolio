@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
 
-const IndexPage = () => (
+const Project = () => (
   <Layout>
     <div>
       <div style={{ padding: '20px' }}>
@@ -43,4 +43,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default Project

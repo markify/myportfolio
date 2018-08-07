@@ -20,47 +20,50 @@ const Container = () => (
       Learning new languages and technologies excites me. Feel free to contact
       me if you would like to work on a project together, or just want to chat.
     </p>
-    <nav className="links">
-      <ul>
-        <Link to="/" className="styled-link">
+    <ul className="links">
+      <li>
+        <Link to="/" className="styled-link" activeClassName="aclass">
           {' '}
           Projects{' '}
         </Link>
+      </li>
 
-        <Link to="/about/" className="styled-link">
+      <li>
+        <Link to="/about/" className="styled-link" activeClassName="aclass">
           {' '}
           About{' '}
         </Link>
-
-        <Link to="/contact/" className="styled-link">
+      </li>
+      <li>
+        <Link to="/contact/" className="styled-link" activeClassName="aclass">
           Contact{' '}
         </Link>
-      </ul>
-    </nav>
+      </li>
+    </ul>
 
     <ul className="menu-fa">
       <li>
-        <a href="">
+        <a href="https://github.com/" target="_blank">
           <FaGithubSquare />
         </a>
       </li>
 
       <li>
-        <a href="">
+        <a href="https://www.linkedin.com/" target="_blank">
           {' '}
           <FaLinkedin />{' '}
         </a>
       </li>
 
       <li>
-        <a href="">
+        <a href="https://twitter.com/" target="_blank">
           {' '}
           <FaTwitterSquare />{' '}
         </a>
       </li>
 
       <li>
-        <a href="">
+        <a href="#" target="_blank">
           {' '}
           <FaEnvelopeSquare />{' '}
         </a>

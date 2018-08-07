@@ -1,6 +1,47 @@
+.links {
+  list-style: none;
+}
+.links li .styled-links:active {
+  color: green;
+}
+.styled-link {
+  text-decoration: none;
+  display: block;
+}
+
+li .styled-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+
+  position: relative;
+}
+li .styled-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  height: 1.5px;
+  left: 0%;
+  position: absolute;
+  background: #16a085;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+li .styled-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+/* Active Link */
+
+/* Icons */
 .menu-fa {
   list-style: none;
-  text-decoration: none;
+
+  margin-left: -1px;
+  margin-top: 30px;
 }
 
 .menu-fa li a {
@@ -9,13 +50,6 @@
   font-size: 30px;
   display: inline-block;
   float: left;
-}
-
-.links {
-  list-style: none;
-}
-
-.styled-link {
-  text-decoration: none;
-  display: block;
+  color: #16a085;
+  padding: 2px;
 }

@@ -46,7 +46,7 @@ const Layout = ({ children }) => (
             style={{
               //background: 'red',
               marginRight: '10px',
-              width: '50%',
+              width: '30%',
               margin: '0 auto',
               position: 'relative',
             }}
@@ -58,7 +58,7 @@ const Layout = ({ children }) => (
             style={{
               //background: 'green',
               marginRight: '10px',
-              width: '50%',
+              width: '65%',
               margin: '0 auto',
             }}
           >
