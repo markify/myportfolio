@@ -1,0 +1,28 @@
+.project h1 {
+  text-align: center;
+}
+
+.project .topsect {
+  display: flex;
+}
+
+.project .topsect .left {
+  width: 40%;
+  margin-right: 10px;
+}
+
+.project .topsect .left .top {
+  height: 50%;
+  width: 100%;
+  background: red;
+}
+
+.project .topsect .left .bot {
+  height: 40%;
+  width: 100%;
+  background: gold;
+}
+
+.project .topsect .right {
+  width: 60%;
+}

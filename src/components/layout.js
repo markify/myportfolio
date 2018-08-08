@@ -8,6 +8,7 @@ import Container from './container'
 import './layout.css'
 import './main.css'
 import { relative } from 'path'
+import { FaFileExcel } from 'react-icons/fa'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -33,37 +34,17 @@ const Layout = ({ children }) => (
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
+          className="whole"
           style={{
-            display: 'flex',
-            justifyContent: 'center',
-            flex: 'wrap',
-            flexDirection: 'row',
             margin: '0 auto',
             maxWidth: '65rem',
           }}
         >
-          <div
-            style={{
-              //background: 'red',
-              marginRight: '10px',
-              width: '30%',
-              margin: '0 auto',
-              position: 'relative',
-            }}
-          >
+          <div className="contentz">
             {' '}
             <Container />
           </div>
-          <div
-            style={{
-              //background: 'green',
-              marginRight: '10px',
-              width: '65%',
-              margin: '0 auto',
-            }}
-          >
-            {children}
-          </div>
+          <div className="contentz2">{children}</div>
         </div>
       </>
     )}

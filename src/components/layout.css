@@ -617,6 +617,40 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
+/* Layout responsive */
+
+.whole {
+  display: flex;
+}
+.contentz {
+  margin-right: 10px;
+  width: 30%;
+  margin: 0px auto;
+}
+
+.contentz2 {
+  background: green;
+  margin-right: 10px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 750px) {
+  .contentz {
+    width: 100%;
+    background: red;
+  }
+  .contentz2 {
+    width: 100%;
+    background: red;
+  }
+  .whole {
+    background: red;
+    display: inline;
+    float: none;
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
