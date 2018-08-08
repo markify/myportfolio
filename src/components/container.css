@@ -1,24 +1,23 @@
+/* Menu */
 .links {
   list-style: none;
+  margin: 0 auto;
 }
-.links li .styled-links:active {
-  color: green;
+.links .aclass {
+  color: #16a085;
+  font-size: 1.3rem;
 }
 .styled-link {
   text-decoration: none;
   display: block;
-}
-
-li .styled-link {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
-
   display: inline-block;
-
   position: relative;
 }
+
 li .styled-link:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -34,7 +33,6 @@ li .styled-link:hover:after {
   width: 100%;
   left: 0;
 }
-/* Active Link */
 
 /* Icons */
 .menu-fa {

@@ -43,7 +43,7 @@ const Container = () => (
 
     <ul className="menu-fa">
       <li>
-        <a href="https://github.com/" target="_blank">
+        <a href="https://github.com/markify" target="_blank">
           <FaGithubSquare />
         </a>
       </li>
