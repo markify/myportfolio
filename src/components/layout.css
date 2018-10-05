@@ -621,31 +621,26 @@ pre tt:after {
 
 .whole {
   display: flex;
+  margin: 0px auto;
 }
 .contentz {
   margin-right: 10px;
   width: 30%;
-  margin: 0px auto;
 }
 
 .contentz2 {
-  background: green;
   margin-right: 10px;
   width: 65%;
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 750px) {
   .contentz {
     width: 100%;
-    background: red;
   }
   .contentz2 {
     width: 100%;
-    background: red;
   }
   .whole {
-    background: red;
     display: inline;
     float: none;
     flex-direction: column;

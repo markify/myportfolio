@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import { FaGithub, FaNewspaper } from 'react-icons/fa'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import '../components/image'
@@ -14,58 +14,76 @@ const Project = () => (
         <div className="topsect">
           <div className="left">
             <div className="top">a</div>
-            <div className="bot">
-              <i>Github Icon</i> <i>Milestone</i>
-              <h4> My Project Name</h4>
+            <FaGithub />
+            <FaNewspaper />
+          </div>
+          <div className="right">
+            <h4>Eco Hazards</h4>
+            <p>2017</p>
+            <p>
+              A fullstack web application for solving issues in the environment.
+              Users shall be able to report information, view, and search
+              environmental hazards. While environmental department agency are
+              able to view and update status of the environmental report.
+            </p>
+          </div>
+        </div>
+
+        <div className="topsect">
+          <div className="left">
+            <div className="top">a</div>
+            <FaGithub />
+          </div>
+          <div className="right">
+            <h4>SF Food Trucks</h4>
+            <p>2017</p>
+            <p>
+              An app for iOS which provide san francisco food truck informations
+              such as location, menu and distance. Users are able to favorite
+              their food trucks, calculate distance of user to foodtruck, and
+              much more.
+            </p>
+          </div>
+        </div>
+
+        <div className="topsect">
+          <div className="left">
+            <div className="top">
+              <img
+                src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+                alt=""
+                style={{ width: '300px' }}
+              />
             </div>
+            <FaGithub />
           </div>
           <div className="right">
-            <h5>description</h5>
+            <h4>Find Lyrics</h4>
+            <p>2017</p>
             <p>
-              My description of my project. My description of my project.My
-              description of my project.My description of my project.
-              description of my project. My description of my project.My
-              description of my project.My description of my project.
+              User's shall be able to view top 10 songs in different countries
+              and search for lyrics of a song.
             </p>
           </div>
         </div>
 
         <div className="topsect">
           <div className="left">
-            {' '}
-            <img
-              src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
-              alt=""
-              style={{ width: '300px' }}
-            />
+            <div className="top">
+              <img
+                src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
+                alt=""
+                style={{ width: '300px' }}
+              />
+            </div>
+            <FaGithub />
           </div>
           <div className="right">
-            <i>Github Icon</i> <i>Milestone</i>
-            <h3> My Project Name</h3>
+            <h4> Order SF</h4>
+            <p>2017</p>
             <p>
-              {' '}
-              My description of my project. My description of my project.My
-              description of my project.My description of my project.
-            </p>
-          </div>
-        </div>
-
-        <div className="topsect">
-          <div className="left">
-            {' '}
-            <img
-              src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo.jpg"
-              alt=""
-              style={{ width: '300px' }}
-            />
-          </div>
-          <div className="right">
-            <i>Github Icon</i> <i>Milestone</i>
-            <h3> My Project Name</h3>
-            <p>
-              {' '}
-              My description of my project. My description of my project.My
-              description of my project.My description of my project.
+              User's are able to find food information such as menu and add them
+              to cart.
             </p>
           </div>
         </div>
