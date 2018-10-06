@@ -1,0 +1,12 @@
+.contact-section {
+  font-size: 20px;
+}
+.contact-section a {
+  text-decoration: none;
+  color: #16a085;
+  font-weight: 400;
+  padding: 10px;
+}
+.contact-section .icon-green {
+  color: #16a085;
+}

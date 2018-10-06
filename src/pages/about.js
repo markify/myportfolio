@@ -2,26 +2,39 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-
+import '../components/about.css'
 const SecondPage = () => (
   <Layout>
     <div style={{ padding: '20px' }}>
-      <h1>My About Page</h1>
+      <h1 className="section-title">About Me</h1>
       <p>
         {' '}
-        Hi, There! My name is Mark. I building things through technology with
-        web and mobile. Throughout the years, I've have different hobbies such
-        as video editing in Sony Vegas Pro and playing sports such as basketball
-        with friends.
-      </p>
-      <p>I do enjoy listening to music :) Here are my top 3 songs.</p>
-      <p>
-        I find modern web interesting as there is continously new technologies
-        and challenge to face.
+        <span className="greenfont">
+          <strong> Hi There!</strong>
+        </span>
       </p>
       <p>
-        If find an interest and would like to work on a project together or just
-        want to chat. Feel free to contact me =)
+        My name is Mark, I'm from the Bay Area. I have different hobbies such as
+        cycling, chess and basketball.
+      </p>
+      <p>I do enjoy listening to music, Here are my top 3 songs.</p>
+      <p>
+        Feel free to
+        <Link
+          to="/contact/"
+          activeClassName="aclass"
+          style={{
+            fontWeight: '400',
+            fontSize: '20px',
+            textDecoration: 'none',
+            color: '#16A085',
+          }}
+        >
+          {' '}
+          contact{' '}
+        </Link>
+        me if you would like to work on a projects together or want to chat. I
+        would like to contribute on open source projects.
       </p>
     </div>
   </Layout>

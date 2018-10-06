@@ -61,6 +61,10 @@
   .topsect {
     width: 100%;
   }
+  .section-title {
+    text-align: start;
+    margin-top: 20px;
+  }
   .whole {
     display: inline;
     float: none;

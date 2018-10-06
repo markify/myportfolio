@@ -7,7 +7,7 @@ export class ProjectName extends Component {
   render() {
     return (
       <div className="project" style={{ padding: '20px' }}>
-        <h1> Projects</h1>
+        <h1 className="section-title"> Projects</h1>
 
         <ProjectProp
           image={foodtruck}

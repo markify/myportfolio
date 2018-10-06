@@ -1,4 +1,7 @@
 /* Menu */
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .links {
   list-style: none;
   margin: 0 auto;
@@ -16,6 +19,7 @@
   letter-spacing: 0.15em;
   display: inline-block;
   position: relative;
+  font-weight: 600;
 }
 
 li .styled-link:after {

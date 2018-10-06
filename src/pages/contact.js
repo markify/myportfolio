@@ -1,15 +1,35 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import '../components/contact.css'
 import Layout from '../components/layout'
-
+import { FaTwitter, FaEnvelope } from 'react-icons/fa'
 const SecondPage = () => (
   <Layout>
     <div style={{ padding: '20px' }}>
-      <h1>My Contacts</h1>
-      <h4> Twitter </h4>
-      <h4> Email </h4>
-      <p> Create form here</p>
+      <h1 className="section-title">Contact</h1>
+      <div className="contact-section">
+        <p>
+          {' '}
+          If you would like to contact me immediately message me on Twitter{' '}
+          <span className="icon-green">
+            <a href="https://twitter.com/markioh" target="_blank">
+              <FaTwitter />
+            </a>
+          </span>
+        </p>
+        <p>
+          {' '}
+          Feel free to contact me through the email below, I would love to chat.
+        </p>
+        <span className="icon-green">
+          {' '}
+          <FaEnvelope />
+        </span>
+        <a href="mailto:marksordev@gmail.com" class="email">
+          {' '}
+          marksordev@gmail.com
+        </a>
+      </div>
     </div>
   </Layout>
 )

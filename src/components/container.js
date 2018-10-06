@@ -17,8 +17,7 @@ const Container = () => (
     <p>
       {' '}
       I am a fullstack developer that strive to learn and take on challenges.
-      Learning new languages and technologies excites me. Feel free to contact
-      me if you would like to work on a project together, or just want to chat.
+      Learning new languages and technologies excites me.
     </p>
     <ul className="links">
       <li>
