@@ -24,7 +24,7 @@ export class ProjectName extends Component {
         />
         <ProjectProp
           image={ecohazard}
-          link="https://www.google.com"
+          link="http://csc648team07.herokuapp.com/"
           title="Eco Hazard"
           date="2018"
           desc="A fullstack web application for solving issues in the environment.
@@ -44,7 +44,7 @@ export class ProjectName extends Component {
 
         <ProjectProp
           image={ordersf}
-          link="https://www.google.com"
+          link="https://github.com/markify"
           title="Order SF (in progress)"
           date="2018"
           desc=" User's are able to easily navigate to their favorite restaurant, select the desired food and add to cart. The selected item will show up in the screen and
@@ -52,7 +52,7 @@ export class ProjectName extends Component {
         />
         <ProjectProp
           image={splittank}
-          link="https://www.google.com"
+          link="https://docs.google.com/document/d/1Y35IgRdC7Ftr5XohxSb3TIRvxC-OrQhTjt_L8Czr-gE/edit?usp=sharing"
           title="2D Splitscreen Tank Game in Java"
           date="2017"
           desc="A full featured 2D two player splitscreen Java game.
