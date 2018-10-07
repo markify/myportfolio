@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import ProjectProp from './projectprop'
 import foodtruck from '../images/foodtruck.png'
-import ecologo from '../images/ecologo.png'
+import ordersf from '../images/ordersf.png'
+import ecohazard from '../images/ecohazard.png'
+import findlyric from '../images/findlyric.png'
+import splittank from '../images/splittank.png'
 import './projectprop.css'
 export class ProjectName extends Component {
   render() {
@@ -12,7 +15,7 @@ export class ProjectName extends Component {
         <ProjectProp
           image={foodtruck}
           link="https://www.google.com"
-          title="Food Truck SF"
+          title="Food Truck SF (iOS)"
           date="2017"
           desc=" An app for iOS, which provide San francisco food truck informations
           such as location, menu and distance. Users are able to favorite
@@ -20,7 +23,7 @@ export class ProjectName extends Component {
           much more."
         />
         <ProjectProp
-          image={ecologo}
+          image={ecohazard}
           link="https://www.google.com"
           title="Eco Hazard"
           date="2017"
@@ -31,7 +34,7 @@ export class ProjectName extends Component {
         />
 
         <ProjectProp
-          image={ecologo}
+          image={findlyric}
           link="https://www.google.com"
           title="Find Lyrics"
           date="2017"
@@ -40,7 +43,7 @@ export class ProjectName extends Component {
         />
 
         <ProjectProp
-          image={foodtruck}
+          image={ordersf}
           link="https://www.google.com"
           title="Order SF"
           date="2017"
@@ -48,7 +51,7 @@ export class ProjectName extends Component {
           will automatically call the store to order the food."
         />
         <ProjectProp
-          image={ecologo}
+          image={splittank}
           link="https://www.google.com"
           title="Find Lyrics"
           date="2017"

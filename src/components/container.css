@@ -55,3 +55,8 @@ li .styled-link:hover:after {
   color: #16a085;
   padding: 2px;
 }
+
+.source {
+  margin-top: 80px;
+  font-size: 0.7rem;
+}

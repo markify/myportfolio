@@ -10,7 +10,7 @@ const SecondPage = () => (
       <div className="contact-section">
         <p>
           {' '}
-          If you would like to contact me immediately message me on Twitter{' '}
+          If you would like to contact me, I started using Twitter more often
           <span className="icon-green">
             <a href="https://twitter.com/markioh" target="_blank">
               <FaTwitter />

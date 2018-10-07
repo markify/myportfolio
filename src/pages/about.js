@@ -6,7 +6,7 @@ import '../components/about.css'
 const SecondPage = () => (
   <Layout>
     <div style={{ padding: '20px' }}>
-      <h1 className="section-title">About Me</h1>
+      <h1 className="section-title">About</h1>
       <p>
         {' '}
         <span className="greenfont">
@@ -34,7 +34,7 @@ const SecondPage = () => (
           contact{' '}
         </Link>
         me if you would like to work on a projects together or want to chat. I
-        would like to contribute on open source projects.
+        would love to contribute on open source projects.
       </p>
     </div>
   </Layout>

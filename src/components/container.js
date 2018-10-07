@@ -6,13 +6,14 @@ import {
   FaGithubSquare,
   FaTwitterSquare,
   FaEnvelopeSquare,
+  FaGithub,
 } from 'react-icons/fa'
 import './layout.css'
 import './container.css'
 
 const Container = () => (
   <div style={{ padding: '20px' }}>
-    <h1>Mark Portfolio</h1>
+    <h1>Mark Soriano</h1>
     <h4>Hi, 👋 I'm Mark</h4>
     <p>
       {' '}
@@ -39,35 +40,40 @@ const Container = () => (
         </Link>
       </li>
     </ul>
+    <div>
+      <ul className="menu-fa">
+        <li>
+          <a href="https://github.com/markify" target="_blank">
+            <FaGithubSquare />
+          </a>
+        </li>
 
-    <ul className="menu-fa">
-      <li>
-        <a href="https://github.com/markify" target="_blank">
-          <FaGithubSquare />
-        </a>
-      </li>
+        <li>
+          <a href="https://www.linkedin.com/" target="_blank">
+            {' '}
+            <FaLinkedin />{' '}
+          </a>
+        </li>
 
-      <li>
-        <a href="https://www.linkedin.com/" target="_blank">
-          {' '}
-          <FaLinkedin />{' '}
-        </a>
-      </li>
+        <li>
+          <a href="https://twitter.com/" target="_blank">
+            {' '}
+            <FaTwitterSquare />{' '}
+          </a>
+        </li>
 
-      <li>
-        <a href="https://twitter.com/" target="_blank">
-          {' '}
-          <FaTwitterSquare />{' '}
-        </a>
-      </li>
-
-      <li>
-        <a href="#" target="_blank">
-          {' '}
-          <FaEnvelopeSquare />{' '}
-        </a>
-      </li>
-    </ul>
+        <li>
+          <Link to="/contact/">
+            <FaEnvelopeSquare />{' '}
+          </Link>
+        </li>
+      </ul>
+    </div>
+    <div class="source">
+      {' '}
+      Built by me, source on Github <FaGithub /> <br /> &#169; 2018 Mark
+      Soriano,
+    </div>
   </div>
 )
 
