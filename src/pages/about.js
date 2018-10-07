@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import Zoom from 'react-reveal/Zoom'
 import Layout from '../components/layout'
 import '../components/about.css'
+
 const SecondPage = () => (
   <Layout>
     <div style={{ padding: '20px' }}>
@@ -10,7 +11,13 @@ const SecondPage = () => (
       <p>
         {' '}
         <span className="greenfont">
-          <strong> Hi There! 😃</strong>
+          <strong>
+            {' '}
+            Hi There!{' '}
+            <span role="img" aria-label="smiley">
+              😃
+            </span>
+          </strong>
         </span>
       </p>
       <p>
@@ -24,14 +31,17 @@ const SecondPage = () => (
         and playing basketball.
       </p>
       <p>I do enjoy listening to music, Here are my top 3 songs.</p>
-      <iframe
-        src="https://open.spotify.com/embed/playlist/6tuvBqmy9UsSIlTH3WHyLS"
-        width="300"
-        height="250"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      />
+      <Zoom left duration="1900">
+        <iframe
+          title="Spotify playlist"
+          src="https://open.spotify.com/embed/playlist/6tuvBqmy9UsSIlTH3WHyLS"
+          width="300"
+          height="250"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        />
+      </Zoom>
       <p>
         Feel free to
         <Link

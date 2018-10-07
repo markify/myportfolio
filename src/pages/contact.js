@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import '../components/contact.css'
 import Layout from '../components/layout'
 import { FaTwitter, FaEnvelope } from 'react-icons/fa'
@@ -12,7 +11,11 @@ const SecondPage = () => (
           {' '}
           If you would like to contact me, I started using Twitter more often
           <span className="icon-green">
-            <a href="https://twitter.com/markioh" target="_blank">
+            <a
+              href="https://twitter.com/markioh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaTwitter />
             </a>
           </span>

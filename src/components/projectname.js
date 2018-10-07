@@ -14,12 +14,12 @@ export class ProjectName extends Component {
 
         <ProjectProp
           image={foodtruck}
-          link="https://www.google.com"
+          link="https://github.com/TheFootGang/team-final-project"
           title="Food Truck SF (iOS)"
           date="2018"
           desc=" An app for iOS, which provide San francisco food truck informations
           such as location, menu and distance. Users are able to favorite
-          their food trucks, calculate distance of user to foodtruck, and
+          their food trucks, calculate distance of the user to foodtruck, and
           much more."
         />
         <ProjectProp
@@ -35,7 +35,7 @@ export class ProjectName extends Component {
 
         <ProjectProp
           image={findlyric}
-          link="https://www.google.com"
+          link="https://lyricstogo-mark.netlify.com/"
           title="Find Lyrics"
           date="2017"
           desc="User's shall be able to view top 10 songs in different countries
@@ -45,7 +45,7 @@ export class ProjectName extends Component {
         <ProjectProp
           image={ordersf}
           link="https://www.google.com"
-          title="Order SF"
+          title="Order SF (in progress)"
           date="2018"
           desc=" User's are able to easily navigate to their favorite restaurant, select the desired food and add to cart. The selected item will show up in the screen and
           will automatically call the store to order the food."
@@ -55,8 +55,9 @@ export class ProjectName extends Component {
           link="https://www.google.com"
           title="2D Splitscreen Tank Game in Java"
           date="2017"
-          desc="A full featured 2D 2 player splitscreen Java game.
-           Learned advanced data structures and structured design in Java game.
+          desc="A full featured 2D two player splitscreen Java game.
+           Learned advanced data structures, structured design in Java game, and documentation creation process.
+           
           "
         />
       </div>

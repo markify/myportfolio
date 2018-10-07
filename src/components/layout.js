@@ -7,8 +7,6 @@ import Header from './header'
 import Container from './container'
 import './layout.css'
 import './main.css'
-import { relative } from 'path'
-import { FaFileExcel } from 'react-icons/fa'
 
 const Layout = ({ children }) => (
   <StaticQuery

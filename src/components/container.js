@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Header from './header'
+import styled from 'styled-components'
 import {
   FaLinkedin,
   FaGithubSquare,
@@ -10,11 +10,23 @@ import {
 } from 'react-icons/fa'
 import './layout.css'
 import './container.css'
+import Pulse from 'react-reveal/Pulse'
+const Title = styled.h1`
+  font-family: 'Permanent Marker', cursive, sans-serif;
+`
 
 const Container = () => (
   <div style={{ padding: '20px' }}>
-    <h1>Mark Soriano</h1>
-    <h4>Hi, 👋 I'm Mark</h4>
+    <Pulse forever duration="3000">
+      <Title>Mark Soriano</Title>
+    </Pulse>
+    <h4>
+      Hi,{' '}
+      <span role="img" aria-label="wave">
+        👋{' '}
+      </span>
+      I'm Mark
+    </h4>
     <p>
       {' '}
       I am a fullstack developer that strive to learn and take on challenges.
@@ -43,20 +55,32 @@ const Container = () => (
     <div>
       <ul className="menu-fa">
         <li>
-          <a href="https://github.com/markify" target="_blank">
+          <a
+            href="https://github.com/markify"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithubSquare />
           </a>
         </li>
 
         <li>
-          <a href="https://www.linkedin.com/in/mark-soriano" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/mark-soriano"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {' '}
             <FaLinkedin />{' '}
           </a>
         </li>
 
         <li>
-          <a href="https://twitter.com/markioh" target="_blank">
+          <a
+            href="https://twitter.com/markioh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {' '}
             <FaTwitterSquare />{' '}
           </a>
@@ -71,7 +95,7 @@ const Container = () => (
     </div>
     <div class="source">
       {' '}
-      Built by me, view on Github <FaGithub /> <br /> &#169; 2018 Mark Soriano,
+      view on Github <FaGithub /> <br /> &#169; 2018 Mark Soriano,
     </div>
   </div>
 )
