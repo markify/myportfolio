@@ -16,7 +16,7 @@ export class ProjectName extends Component {
           image={foodtruck}
           link="https://www.google.com"
           title="Food Truck SF (iOS)"
-          date="2017"
+          date="2018"
           desc=" An app for iOS, which provide San francisco food truck informations
           such as location, menu and distance. Users are able to favorite
           their food trucks, calculate distance of user to foodtruck, and
@@ -26,7 +26,7 @@ export class ProjectName extends Component {
           image={ecohazard}
           link="https://www.google.com"
           title="Eco Hazard"
-          date="2017"
+          date="2018"
           desc="A fullstack web application for solving issues in the environment.
         Users shall be able to report information, view, and search
         environmental hazards. While environmental department agency are
@@ -46,17 +46,18 @@ export class ProjectName extends Component {
           image={ordersf}
           link="https://www.google.com"
           title="Order SF"
-          date="2017"
+          date="2018"
           desc=" User's are able to easily navigate to their favorite restaurant, select the desired food and add to cart. The selected item will show up in the screen and
           will automatically call the store to order the food."
         />
         <ProjectProp
           image={splittank}
           link="https://www.google.com"
-          title="Find Lyrics"
+          title="2D Splitscreen Tank Game in Java"
           date="2017"
-          desc="User's shall be able to view top 10 songs in different countries
-          and search for lyrics of a song. The song include information such as genre, date, lyrics, artist, and album."
+          desc="A full featured 2D 2 player splitscreen Java game.
+           Learned advanced data structures and structured design in Java game.
+          "
         />
       </div>
     )

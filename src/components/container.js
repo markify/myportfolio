@@ -49,14 +49,14 @@ const Container = () => (
         </li>
 
         <li>
-          <a href="https://www.linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/mark-soriano" target="_blank">
             {' '}
             <FaLinkedin />{' '}
           </a>
         </li>
 
         <li>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://twitter.com/markioh" target="_blank">
             {' '}
             <FaTwitterSquare />{' '}
           </a>
@@ -71,8 +71,7 @@ const Container = () => (
     </div>
     <div class="source">
       {' '}
-      Built by me, source on Github <FaGithub /> <br /> &#169; 2018 Mark
-      Soriano,
+      Built by me, view on Github <FaGithub /> <br /> &#169; 2018 Mark Soriano,
     </div>
   </div>
 )

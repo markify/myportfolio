@@ -10,14 +10,28 @@ const SecondPage = () => (
       <p>
         {' '}
         <span className="greenfont">
-          <strong> Hi There!</strong>
+          <strong> Hi There! 😃</strong>
         </span>
       </p>
       <p>
-        My name is Mark, I'm from the Bay Area. I have different hobbies such as
-        cycling, chess and basketball.
+        I'm Mark. I mostly fancy front-end design workflow. Diving into the
+        backend is also fun. I like the simple design and innovative techniques
+        on the web. I found an interest in modern web and mobile technology
+        because of its evolution throughout the years. Coming across these
+        technologies made me curious on how they are built. For the past year, I
+        have been learning constantly during uni and exploring new technologies
+        that power the web and mobile devices. While on the side, I like cycling
+        and playing basketball.
       </p>
       <p>I do enjoy listening to music, Here are my top 3 songs.</p>
+      <iframe
+        src="https://open.spotify.com/embed/playlist/6tuvBqmy9UsSIlTH3WHyLS"
+        width="300"
+        height="250"
+        frameborder="0"
+        allowtransparency="true"
+        allow="encrypted-media"
+      />
       <p>
         Feel free to
         <Link
