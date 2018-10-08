@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './projectprop.css'
 import Zoom from 'react-reveal/Zoom'
+import { FaBlackberry } from 'react-icons/fa'
 
 class ProjectProp extends Component {
   render() {
@@ -34,7 +35,10 @@ class ProjectProp extends Component {
           </div>
 
           <div className="title">
-            {this.props.title} <span> {this.props.icons} </span>
+            {this.props.title}{' '}
+            <a href={this.props.gitlink} style={{ color: 'black' }}>
+              <span> {this.props.icons}</span>{' '}
+            </a>
           </div>
 
           <div className="date"> {this.props.date}</div>

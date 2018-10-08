@@ -24,6 +24,7 @@ export class ProjectName extends Component {
           link="https://github.com/TheFootGang/team-final-project"
           title="Food Truck SF (iOS)"
           icons={<FaGithub />}
+          gitlink="https://github.com/TheFootGang/team-final-project"
           date="2018"
           desc=" An app for iOS, which provide San francisco food truck informations
           such as location, menu and distance. Users are able to favorite
@@ -48,6 +49,7 @@ export class ProjectName extends Component {
           link="https://lyricstogo-mark.netlify.com/"
           title="Find Lyrics"
           icons={<FaGithub />}
+          gitlink={'https://github.com/markify/find-lyrics'}
           date="2017"
           desc="User's shall be able to view top 10 songs in different countries
           and search for lyrics of a song. The song include information such as genre, date, lyrics, artist, and album."
@@ -56,11 +58,10 @@ export class ProjectName extends Component {
         <ProjectProp
           image={ordersf}
           tech={reactgoogle}
-          link="https://github.com/markify"
           title="Order SF (in progress)"
           date="2018"
-          desc=" User's are able to easily navigate to their favorite restaurant, select the desired food and add to cart. The selected item will show up in the screen and
-          will automatically call the store to order the food."
+          desc=" User's are able to easily navigate to their favorite restaurant, select the desired food and add to cart. Use google account to save
+          history of orders. App uses redux to keep track of state of items in the cart"
         />
         <ProjectProp
           image={splittank}

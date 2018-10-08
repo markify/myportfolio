@@ -23,6 +23,12 @@
   background-position: center;
 }
 
+/* hover image */
+.topsect .image:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease 0s;
+}
+
 /* Typography */
 .topsect .title {
   font-weight: 700;

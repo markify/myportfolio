@@ -12,6 +12,7 @@ import './layout.css'
 import './container.css'
 import Pulse from 'react-reveal/Pulse'
 import reacticon from '../images/react/react-original-wordmark.svg'
+
 const Title = styled.h1`
   font-family: 'Permanent Marker', cursive, sans-serif;
 `
