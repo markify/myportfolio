@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { FaGithub } from 'react-icons/fa'
 import './projectprop.css'
 import Zoom from 'react-reveal/Zoom'
+
 class ProjectProp extends Component {
   render() {
     return (
@@ -18,8 +18,25 @@ class ProjectProp extends Component {
               }}
             />
           </a>
-          <div className="title">{this.props.title}</div>
-          <FaGithub />
+          <div>
+            <span>
+              <img
+                src={this.props.tech}
+                style={{
+                  padding: '0px',
+                  margin: '4px',
+                  width: '264px',
+                  height: '40px',
+                }}
+                alt="tech stack icons"
+              />
+            </span>
+          </div>
+
+          <div className="title">
+            {this.props.title} <span> {this.props.icons} </span>
+          </div>
+
           <div className="date"> {this.props.date}</div>
           <div className="desc">{this.props.desc}</div>
         </div>

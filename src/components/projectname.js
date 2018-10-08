@@ -5,6 +5,12 @@ import ordersf from '../images/ordersf.png'
 import ecohazard from '../images/ecohazard.png'
 import findlyric from '../images/findlyric.png'
 import splittank from '../images/splittank.png'
+import swift from '../images/swift/swift-original-wordmark.svg'
+import java from '../images/java/java-plain-wordmarks.svg'
+import reactgoogle from '../images/react/react-original-wordmarksgoogle.svg'
+import react from '../images/react/react-original-wordmarks.svg'
+import ecohazardsvg from '../images/ecohazard.svg'
+import { FaGithub } from 'react-icons/fa'
 import './projectprop.css'
 export class ProjectName extends Component {
   render() {
@@ -14,8 +20,10 @@ export class ProjectName extends Component {
 
         <ProjectProp
           image={foodtruck}
+          tech={swift}
           link="https://github.com/TheFootGang/team-final-project"
           title="Food Truck SF (iOS)"
+          icons={<FaGithub />}
           date="2018"
           desc=" An app for iOS, which provide San francisco food truck informations
           such as location, menu and distance. Users are able to favorite
@@ -24,6 +32,7 @@ export class ProjectName extends Component {
         />
         <ProjectProp
           image={ecohazard}
+          tech={ecohazardsvg}
           link="http://csc648team07.herokuapp.com/"
           title="Eco Hazard"
           date="2018"
@@ -35,8 +44,10 @@ export class ProjectName extends Component {
 
         <ProjectProp
           image={findlyric}
+          tech={react}
           link="https://lyricstogo-mark.netlify.com/"
           title="Find Lyrics"
+          icons={<FaGithub />}
           date="2017"
           desc="User's shall be able to view top 10 songs in different countries
           and search for lyrics of a song. The song include information such as genre, date, lyrics, artist, and album."
@@ -44,6 +55,7 @@ export class ProjectName extends Component {
 
         <ProjectProp
           image={ordersf}
+          tech={reactgoogle}
           link="https://github.com/markify"
           title="Order SF (in progress)"
           date="2018"
@@ -52,6 +64,7 @@ export class ProjectName extends Component {
         />
         <ProjectProp
           image={splittank}
+          tech={java}
           link="https://docs.google.com/document/d/1Y35IgRdC7Ftr5XohxSb3TIRvxC-OrQhTjt_L8Czr-gE/edit?usp=sharing"
           title="2D Splitscreen Tank Game in Java"
           date="2017"
