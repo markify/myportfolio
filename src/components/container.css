@@ -57,7 +57,12 @@ li .styled-link:hover:after {
   padding: 2px;
 }
 
+/* source github */
 .source {
   margin-top: 80px;
-  font-size: 0.6rem;
+  font-size: 0.65rem;
+}
+.source a {
+  text-decoration: none;
+  color: lightseagreen;
 }

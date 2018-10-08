@@ -11,6 +11,7 @@ import {
 import './layout.css'
 import './container.css'
 import Pulse from 'react-reveal/Pulse'
+import reacticon from '../images/react/react-original-wordmark.svg'
 const Title = styled.h1`
   font-family: 'Permanent Marker', cursive, sans-serif;
 `
@@ -95,7 +96,16 @@ const Container = () => (
     </div>
     <div class="source">
       {' '}
-      view on Github <FaGithub /> <br /> &#169; 2018 Mark Soriano,
+      view on Github{' '}
+      <a
+        href="https://twitter.com/markioh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {' '}
+        <FaGithub />
+      </a>{' '}
+      <br /> &#169; 2018 Mark Soriano,
     </div>
   </div>
 )
