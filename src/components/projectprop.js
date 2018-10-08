@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import './projectprop.css'
+import './styles/projectprop.css'
 import Zoom from 'react-reveal/Zoom'
-import { FaBlackberry } from 'react-icons/fa'
 
 class ProjectProp extends Component {
   render() {

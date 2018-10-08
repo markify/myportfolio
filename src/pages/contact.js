@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/contact.css'
+import '../components/styles/contact.css'
 import Layout from '../components/layout'
 import { FaTwitter, FaEnvelope } from 'react-icons/fa'
 const SecondPage = () => (

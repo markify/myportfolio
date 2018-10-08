@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Zoom from 'react-reveal/Zoom'
 import Layout from '../components/layout'
-import '../components/about.css'
+import '../components/styles/about.css'
 
 const SecondPage = () => (
   <Layout>

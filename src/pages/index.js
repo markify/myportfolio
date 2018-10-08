@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import '../components/image'
-import '../components/projectprop.css'
+import '../components/styles/projectprop.css'
 
 import ProjectName from '../components/projectname'
 
