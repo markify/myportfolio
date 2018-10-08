@@ -11,7 +11,7 @@ import reactgoogle from '../images/react/react-original-wordmarksgoogle.svg'
 import react from '../images/react/react-original-wordmarks.svg'
 import ecohazardsvg from '../images/ecohazard.svg'
 import { FaGithub } from 'react-icons/fa'
-import './style/projectprop.css'
+import './styles/projectprop.css'
 export class ProjectName extends Component {
   render() {
     return (

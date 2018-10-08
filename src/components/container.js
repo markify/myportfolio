@@ -98,7 +98,7 @@ const Container = () => (
       {' '}
       view on Github{' '}
       <a
-        href="https://twitter.com/markioh"
+        href="https://github.com/markify"
         target="_blank"
         rel="noopener noreferrer"
       >
