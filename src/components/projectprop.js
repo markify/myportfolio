@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom'
 class ProjectProp extends Component {
   render() {
     return (
-      <Zoom>
+      <Zoom duration="3">
         <div className="topsect middle-xs">
           <a href={this.props.link} target="_blank" rel="noopener noreferrer">
             <div

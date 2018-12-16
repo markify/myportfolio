@@ -1,32 +1,79 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      letterSpacing: '3px',
-      fontFamily: 'Lato',
-      fontSize: '30px',
-      padding: '20px 10px',
-      marginBottom: '20px',
-      fontWeight: '700',
-      display: 'inline-block',
-      background: '#16A085 ' /* fallback for old browsers */,
-    }}
-  >
-    {' '}
-    <span>
-      <Link
-        to="/"
-        style={{
-          color: 'white',
-          textDecoration: 'none',
-        }}
-      >
-        MS
-      </Link>
-    </span>
-  </div>
-)
-
+import './styles/hamburger.css'
+import './styles/container.css'
+import icon from '../images/icon.png'
+export class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isToggle: false,
+    }
+    this.toggleMenu = this.toggleMenu.bind(this);
+  }
+  
+  toggleMenu(){
+    this.setState({isToggle: !this.state.isToggle});
+  }
+  render() {
+    return (
+      <React.Fragment>
+        <nav className="navb">
+          <ul className="links">
+            <li>
+              <Link to="/" className="styled-link" activeClassName="aclass">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects" className="styled-link" activeClassName="aclass">
+                Projects
+              </Link>
+            </li>
+              <img src={icon} alt="crypto logo" />
+            <li>
+              <Link to="/about/" className="styled-link" activeClassName="aclass">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact/" className="styled-link" activeClassName="aclass">
+                Contact
+              </Link>
+            </li>
+          </ul>
+          <label className="res-menu">
+            <input type="checkbox" checked={this.state.isToggle} onClick={this.toggleMenu}></input>
+            <span className="menu" >
+              <span className="hamburger" >
+              </span>
+            </span>
+            <ul>
+              <li>
+                <Link to="/" onClick={this.toggleMenu} className="ham-links" >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/" onClick={this.toggleMenu} className="ham-link">
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link to="/about/" onClick={this.toggleMenu} className="ham-link">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact/" onClick={this.toggleMenu} className="ham-link">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </label>
+        </nav>
+      </React.Fragment>
+    );
+  }
+}
 export default Header

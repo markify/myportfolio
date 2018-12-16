@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-import Container from './container'
+
 import './styles/layout.css'
 
 const Layout = ({ children }) => (
@@ -20,29 +20,16 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        >
+        <Helmet title={data.site.siteMetadata.title}>
           <html lang="en" />
         </Helmet>
+
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          className="whole"
-          style={{
-            margin: '0 auto',
-            maxWidth: '65rem',
-          }}
-        >
-          <div className="contentz">
-            {' '}
-            <Container />
-          </div>
-          <div className="contentz2">{children}</div>
-        </div>
+          <div className="contents"  style={{ margin: '0 auto', maxWidth: '65rem'}}>
+            <div style={{ marginTop:'80px'}}>
+          {children}
+            </div>
+          </div>  
       </>
     )}
   />

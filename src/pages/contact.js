@@ -28,7 +28,7 @@ const SecondPage = () => (
           {' '}
           <FaEnvelope />
         </span>
-        <a href="mailto:marksordev@gmail.com" class="email">
+        <a href="mailto:marksordev@gmail.com">
           {' '}
           marksordev@gmail.com
         </a>
