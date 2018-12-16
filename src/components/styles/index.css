@@ -1,0 +1,90 @@
+
+.index .intro .info {
+  margin-top: 300px;
+  display: block;
+  margin-left:20px;
+}
+
+.index .info h1 {
+  font-size: 4rem;
+  color: rgb(136, 146, 176);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.index .info p {
+  display: block;
+  max-width: 400px;
+  font-weight: 400;
+}
+
+.index .info .index-btn {
+  color: #273c75;
+  background-color: transparent;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  line-height: 1;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #273c75;
+  border-image: initial;
+  border-radius: 2px;
+  padding: 18px 23px;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.index .skills {
+  margin-top: 299px;
+  background: whitesmoke;
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+}
+
+.index .skills .top-tab {
+  padding:40px 0;
+}
+.index .skills .skill-tab {
+  margin: 0 auto;
+  max-width: 65rem;
+  margin-top:-40px;
+}
+.index .skills .skill-tab h1 {
+  margin-left:20px;
+}
+.index .skills .skill-tab h3 {
+  margin-left:20px;
+}
+
+
+.index .skills .skill-scroll {
+  padding:100px;
+}
+
+.index .work {
+  background: #ecf0f1;
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);  
+}
+
+.index .work .top-tab {
+  padding:40px 0;
+}
+.index .work .work-tab {
+  margin: 0 auto;
+  max-width: 65rem;
+}
+
+.index .work .work-tab .with{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.index .work .work-tab .col {
+  display: inline-block;
+}

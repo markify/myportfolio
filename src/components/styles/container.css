@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 .links .aclass {
-  color: #16a085;
+  color: #487eb0;
   font-size: 1.3rem;
 }
 .styled-link {
@@ -27,10 +27,10 @@ li .styled-link:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: '';
-  height: 1.5px;
+  height: 4px;
   left: 0%;
   position: absolute;
-  background: #16a085;
+  background: #487eb0;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -53,7 +53,7 @@ li .styled-link:hover:after {
   font-size: 30px;
   display: inline-block;
   float: left;
-  color: #16a085;
+  color: #487eb0;
   padding: 2px;
 }
 
@@ -64,5 +64,5 @@ li .styled-link:hover:after {
 }
 .source a {
   text-decoration: none;
-  color: lightseagreen;
+  color: #487eb0;
 }

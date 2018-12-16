@@ -3,11 +3,13 @@ import { Link } from 'gatsby'
 import Zoom from 'react-reveal/Zoom'
 import Layout from '../components/layout'
 import '../components/styles/about.css'
-
+import Fade from 'react-reveal/Fade'
 const SecondPage = () => (
   <Layout>
     <div style={{ padding: '20px' }}>
+      
       <h1 className="section-title">About</h1>
+      <Fade up>
       <p>
         {' '}
         <span className="greenfont">
@@ -20,17 +22,14 @@ const SecondPage = () => (
           </strong>
         </span>
       </p>
-      <p>
-        I'm Mark. I mostly fancy front-end design workflow. Diving into the
-        backend is also fun. I like the simple design and innovative techniques
-        on the web. I found an interest in modern web and mobile technology
-        because of its evolution throughout the years. Coming across these
-        technologies made me curious on how they are built. For the past year, I
-        have been learning constantly during uni and exploring new technologies
-        that power the web and mobile devices. While on the side, I like cycling
-        and playing basketball.
+      <p className="bio">
+        Hello, there! I am Mark and I'm a front end and mobile developer.
+        I started my journey as self-taught game developer then transitioned into web and mobile.
+        Ever since then I found passion in web and mobile technologies. In my free time, I spend hours honing my skills
+        to become a better software engineer. Building new projects and challenging myself to perfect my craft.
       </p>
       <p>I do enjoy listening to music, Here are my top 3 songs.</p>
+      </Fade>
       <Zoom left duration="1900">
         <iframe
           title="Spotify playlist"

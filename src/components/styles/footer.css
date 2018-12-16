@@ -1,0 +1,18 @@
+.abc li a{
+  text-decoration: none;
+  color:#487eb0;
+  font-size: 20px;
+}
+.abc li {
+  display:inline-block;
+  text-align: center;
+  margin: 20px;
+  text-decoration: none;
+  color:#487eb0;
+}
+.abc {
+  color:#487eb0;
+  text-align: center;
+  margin-top:20px;
+  text-decoration: none;
+}

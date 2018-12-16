@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import './styles/projectprop.css'
-import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade'
 
 class ProjectProp extends Component {
   render() {
     return (
-      <Zoom duration="3">
+     
         <div className="topsect middle-xs">
+         
           <a href={this.props.link} target="_blank" rel="noopener noreferrer">
+          <Fade up>
             <div
               className="image"
               style={{
@@ -17,7 +19,9 @@ class ProjectProp extends Component {
                 backgroundRepeat: 'no-repeat',
               }}
             />
+             </Fade>
           </a>
+          
           <div>
             <span>
               <img
@@ -32,7 +36,7 @@ class ProjectProp extends Component {
               />
             </span>
           </div>
-
+         
           <div className="title">
             {this.props.title}{' '}
             <a href={this.props.gitlink} style={{ color: 'black' }}>
@@ -43,7 +47,7 @@ class ProjectProp extends Component {
           <div className="date"> {this.props.date}</div>
           <div className="desc">{this.props.desc}</div>
         </div>
-      </Zoom>
+     
     )
   }
 }

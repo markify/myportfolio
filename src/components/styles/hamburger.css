@@ -22,7 +22,7 @@
 
 .navb .links {
   text-decoration: none;
-  color: red;
+  color: #353b48;
   display:flex;
   max-width: 960;
   justify-content: center;
@@ -36,9 +36,20 @@
 .navb .links li a {
   margin: 0px 40px;
   text-decoration: none;
-  font-weight: 700;
-  font-size:20px;
+  font-weight: 490;
+  font-size:19px;
 }
+
+.res-menu ul {
+  color:white;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 40px;
+}
+.res-menu .ham-links {
+  color:white;
+}
+
 
 .res-menu .menu {
   position: absolute;

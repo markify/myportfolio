@@ -2,11 +2,13 @@ import React from 'react'
 import '../components/styles/contact.css'
 import Layout from '../components/layout'
 import { FaTwitter, FaEnvelope } from 'react-icons/fa'
+import Fade from 'react-reveal/Fade'
 const SecondPage = () => (
   <Layout>
     <div style={{ padding: '20px' }}>
       <h1 className="section-title">Contact</h1>
       <div className="contact-section">
+      <Fade down>
         <p>
           {' '}
           If you would like to contact me, I started using Twitter more often
@@ -24,6 +26,7 @@ const SecondPage = () => (
           {' '}
           Feel free to contact me through the email below, I would love to chat.
         </p>
+        </Fade>
         <span className="icon-green">
           {' '}
           <FaEnvelope />

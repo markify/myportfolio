@@ -43,7 +43,7 @@ export class Header extends React.Component {
             </li>
           </ul>
           <label className="res-menu">
-            <input type="checkbox" checked={this.state.isToggle} onClick={this.toggleMenu}></input>
+            <input type="checkbox" defaultChecked={this.state.isToggle} onClick={this.toggleMenu}></input>
             <span className="menu" >
               <span className="hamburger" >
               </span>
@@ -55,17 +55,17 @@ export class Header extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to="/" onClick={this.toggleMenu} className="ham-link">
+                <Link to="/" onClick={this.toggleMenu} className="ham-links">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="/about/" onClick={this.toggleMenu} className="ham-link">
+                <Link to="/about/" onClick={this.toggleMenu} className="ham-links">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/contact/" onClick={this.toggleMenu} className="ham-link">
+                <Link to="/contact/" onClick={this.toggleMenu} className="ham-links">
                   Contact
                 </Link>
               </li>
