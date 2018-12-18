@@ -3,10 +3,17 @@
   margin-top: 300px;
   display: block;
   margin-left:20px;
+  z-index: 99;
+}
+.index .intro .hero-img {
+  position: fixed;
+  top:0;
+  right:0; 
+  z-index:-99;
 }
 
 .index .info h1 {
-  font-size: 4rem;
+  font-size: 2.2em;
   color: rgb(136, 146, 176);
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
@@ -34,40 +41,55 @@
   text-decoration: none;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
-
+/* start skills */
 .index .skills {
   margin-top: 299px;
   background: whitesmoke;
-  width: 100vw;
-  position: relative;
-  left: calc(-1 * (100vw - 100%) / 2);
+  padding-bottom: 200px;
 }
 
 .index .skills .top-tab {
   padding:40px 0;
 }
-.index .skills .skill-tab {
-  margin: 0 auto;
-  max-width: 65rem;
-  margin-top:-40px;
+
+.index .skills .skill-info {
+  
 }
-.index .skills .skill-tab h1 {
-  margin-left:20px;
+
+.index .skills .contain  h1 {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  margin: 20px;
 }
-.index .skills .skill-tab h3 {
-  margin-left:20px;
+.index .skills .contain h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  max-width: 490px;
+  font-size:20px;
+  font-weight: 400;
 }
 
 
 .index .skills .skill-scroll {
   padding:100px;
+  margin: 0 auto;
+  max-width: 65rem;
+  margin-top: -40px;
+  
 }
+.index .skills .skill-scroll .ab {
+  padding: 40px;
+  justify-content: center;
+}
+
+.index .skills .skill-scroll .col-xs-6 {
+  display: flex;
+  flex-basis: 50%;
+}
+
 
 .index .work {
   background: #ecf0f1;
-  width: 100vw;
-  position: relative;
-  left: calc(-1 * (100vw - 100%) / 2);  
+
 }
 
 .index .work .top-tab {
@@ -76,6 +98,68 @@
 .index .work .work-tab {
   margin: 0 auto;
   max-width: 65rem;
+  padding-bottom: 140px;
+}
+
+.index .work .work-tab .normal  {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: block;
+}
+.index .work .work-tab .normal .col {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #fff;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-shadow: 0 6px 8px 0 rgba(3,8,43,.23);
+  box-shadow: 0 6px 8px 0 rgba(3,8,43,.23);
+  padding: 12px 12px 24px;
+  margin: 0 20px;
+}
+.index .work .work-tab .normal .col:hover {
+  opacity:0.9;
+  transform:scale(1.03);
+  transition: ease-in-out .2s all; 
+}
+
+.index .work .work-tab .normal .col h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #264154;
+  
+}
+
+.index .work .work-tab .normal .col p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.55;
+  color: #264154;
+  max-width: 380px;
+  text-align: center;
+}
+
+
+.index .work .work-tab .normal {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .index .work .work-tab .with{
@@ -83,8 +167,30 @@
   font-size: 40px;
   font-weight: 400;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  line-height: 2;
 }
 
 .index .work .work-tab .col {
   display: inline-block;
+}
+
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .index .work .work-tab .normal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .index .work .work-tab .normal .col {
+    padding: 12px 12px 32px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+  }
 }

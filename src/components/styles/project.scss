@@ -1,0 +1,42 @@
+.full {
+  width:100%;
+}
+.sideleft{
+  width:100%;
+}
+
+.sideleft .imgscale:hover{
+  transform: scale(1.03);
+}
+
+.sideleft .imgscale{
+  transition: .2s ease-in-out;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 6px 8px 0 rgba(3,8,43,.23);
+  box-shadow: 0 6px 8px 0 rgba(3,8,43,.23);
+}
+.sideright {
+  width:100%;
+}
+
+.sideright .viewp {
+  background:rgb(136, 146, 176);
+  border-radius: 2px; 
+  margin: 0px 2px;
+  padding: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: .4s ease-in-out;
+  
+}
+
+.sideright .viewp:hover {
+  opacity: .8;
+  color: black;
+  background: lightblue;
+}
+
+.sideright .viewdesc {
+  margin: 20px 0px;
+}

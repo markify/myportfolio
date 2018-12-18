@@ -25,12 +25,15 @@ const Layout = ({ children }) => (
         </Helmet>
         <React.Fragment>
           <Header siteTitle={data.site.siteMetadata.title} />
-            <div className="contents"  style={{ margin: '0 auto', maxWidth: '65rem'}}>
+            <div className="">
               <div style={{ marginTop:'100px'}}>
             {children}
               </div>
-              <Footer/>
             </div>  
+            
+        </React.Fragment>
+        <React.Fragment>
+        <Footer/>
         </React.Fragment>
       </>
     )}

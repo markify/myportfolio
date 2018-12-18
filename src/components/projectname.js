@@ -1,80 +1,72 @@
 import React, { Component } from 'react'
 import ProjectProp from './projectprop'
-import foodtruck from '../images/foodtruck.png'
-import ordersf from '../images/ordersf.png'
-import ecohazard from '../images/ecohazard.png'
-import findlyric from '../images/findlyric.png'
-import splittank from '../images/splittank.png'
-import swift from '../images/swift/swift-original-wordmark.svg'
-import java from '../images/java/java-plain-wordmarks.svg'
-import reactgoogle from '../images/react/react-original-wordmarksgoogle.svg'
-import react from '../images/react/react-original-wordmarks.svg'
-import ecohazardsvg from '../images/ecohazard.svg'
+
+import lyrics from '../images/project/lyrics.png'
+import ecohazard from '../images/project/hazardhome.png'
+import cryptod from '../images/project/cryptod.png'
+
+
+
 import { FaGithub } from 'react-icons/fa'
 import './styles/projectprop.css'
 export class ProjectName extends Component {
   render() {
     return (
-      <div className="project" style={{ padding: '20px' }}>
-        <h1 className="section-title"> Projects</h1>
-
-        <ProjectProp
-          image={foodtruck}
-          tech={swift}
-          link="https://github.com/TheFootGang/team-final-project"
-          title="Food Truck SF (iOS)"
-          icons={<FaGithub />}
-          gitlink="https://github.com/TheFootGang/team-final-project"
-          date="2018"
-          desc=" An app for iOS, which provide San francisco food truck informations
-          such as location, menu and distance. Users are able to favorite
-          their food trucks, calculate distance of the user to foodtruck, and
-          much more."
-        />
+      <React.Fragment>
         <ProjectProp
           image={ecohazard}
-          tech={ecohazardsvg}
+          tech={null}
           link="http://csc648team07.herokuapp.com/"
           title="Eco Hazard"
+          stack="Django, MySQL, HTML5, CSS3, Javascript, JQuery, Python, Responsive Design, Bootstrap"
           date="2018"
-          desc="A fullstack web application for solving issues in the environment.
-        Users shall be able to report information, view, and search
-        environmental hazards. While environmental department agency are
-        able to view and update status of the environmental report."
+          desc="A fullstack web application to solve environmental issues.
+          This is a software engineering project at university to simulate a real working environment.
+          Practice agile and scrum with software engineer team. I continued this project learning more on fullstack environment with django and front-end design."
         />
 
         <ProjectProp
-          image={findlyric}
-          tech={react}
+          image={cryptod}
+          tech={null}
+          title="Cryptodate.net"
+          stack="React.js, Responsive Design, Webpack, Node.js"
+          date="2018"
+          desc="A web application to calculate crypto profits from past to present. I wanted to calculate my profits I made from my bitcoin investment. 
+                In the process, I learned a lot of React.js knowledge from concepts to state management."
+        />
+     
+        <ProjectProp
+          image={lyrics}
+          tech={null}
           link="https://lyricstogo-mark.netlify.com/"
           title="Find Lyrics"
+          stack="React.js, Context API, Bootstrap, Responsive Design, Web Service API, Webpack, Node.js"
           icons={<FaGithub />}
           gitlink={'https://github.com/markify/find-lyrics'}
-          date="2017"
-          desc="User's shall be able to view top 10 songs in different countries
-          and search for lyrics of a song. The song include information such as genre, date, lyrics, artist, and album."
+          date="2018"
+          desc="Front end application for users to search lyrics for songs. A front end project to learn react.js further and using web api."
         />
 
         <ProjectProp
-          image={ordersf}
-          tech={reactgoogle}
-          title="Order SF (in progress)"
+          image={cryptod}
+          tech={null}
+          title="Food Truck SF"
+          stack="Swift, Mapkit, iOS, Mobile"
           date="2018"
           desc=" User's are able to easily navigate to their favorite restaurant, select the desired food and add to cart. Use google account to save
           history of orders. App uses redux to keep track of state of items in the cart"
         />
+
         <ProjectProp
-          image={splittank}
-          tech={java}
-          link="https://docs.google.com/document/d/1Y35IgRdC7Ftr5XohxSb3TIRvxC-OrQhTjt_L8Czr-gE/edit?usp=sharing"
-          title="2D Splitscreen Tank Game in Java"
-          date="2017"
-          desc="A full featured 2D two player splitscreen Java game.
-           Learned advanced data structures, structured design in Java game, and documentation creation process.
-           
-          "
+          image={cryptod}
+          tech={null}
+          title="Food Truck SF"
+          stack="Swift, Mapkit, iOS, Mobile"
+          date="2018"
+          desc="A mobile app made by team of software engineers to make searching for food trucks and their information with ease. 
+                This project developed my skills in mobile architecture and building a full scale application."
         />
-      </div>
+      </React.Fragment>
     )
   }
 }

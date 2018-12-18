@@ -1,53 +1,31 @@
 import React, { Component } from 'react'
 import './styles/projectprop.css'
+import './styles/project.scss'
 import Fade from 'react-reveal/Fade'
 
+
 class ProjectProp extends Component {
+  
   render() {
     return (
-     
-        <div className="topsect middle-xs">
-         
-          <a href={this.props.link} target="_blank" rel="noopener noreferrer">
-          <Fade up>
-            <div
-              className="image"
-              style={{
-                backgroundImage: `url(${this.props.image})`,
-                width: '100%',
-                backgroundSize: '100% 100%',
-                backgroundRepeat: 'no-repeat',
-              }}
-            />
-             </Fade>
-          </a>
-          
-          <div>
-            <span>
-              <img
-                src={this.props.tech}
-                style={{
-                  padding: '0px',
-                  margin: '4px',
-                  width: '264px',
-                  height: '40px',
-                }}
-                alt="tech stack icons"
-              />
-            </span>
+      <React.Fragment>
+        <div className="full">
+          <div className="sideleft col-sm-7">
+            <img  className="imgscale" src={this.props.image}  style={{}}></img>
           </div>
-         
-          <div className="title">
-            {this.props.title}{' '}
-            <a href={this.props.gitlink} style={{ color: 'black' }}>
-              <span> {this.props.icons}</span>{' '}
-            </a>
-          </div>
+          <div className="sideright col-sm-5">
+            <h1>{this.props.title}</h1>
+            <a className="viewp" href={this.props.link} target="_blank"> View Project </a>
+            <a className="viewp" href={this.props.gitlink} target="_blank"> Github </a>
 
-          <div className="date"> {this.props.date}</div>
-          <div className="desc">{this.props.desc}</div>
+            <h4 className="viewdesc">Description</h4>
+           
+            <p> {this.props.desc}</p>
+            <h4> Tech </h4>
+            <p> {this.props.stack}</p>            
+          </div>
         </div>
-     
+      </React.Fragment>
     )
   }
 }

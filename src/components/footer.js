@@ -1,25 +1,27 @@
 import React from 'react';
 import './styles/footer.css'
+import { FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa'
 const Footer = () => {
 	return (
-		<footer style={{padding:'40px', marginTop: '490px'}}>
-        <div style={{color:'white'}}>
+    <React.Fragment>
+		<footer>
           <ul className="abc">
             <li> 
-              &#169; Mark S.
-            </li>
-            <li>
-              <a>contact@marks.com</a>
-            </li>
-            <li> 
-              <a>Github</a>
+              &#169; Mark Soriano
+            </li> 
+             <li>
+                <FaEnvelope />
             </li>
             <li> 
-              <a>Twitter</a>
+              <a><FaGithub /></a>
+            </li>
+           
+            <li> 
+              <a><FaTwitter /></a>
             </li>
           </ul>
-        </div>
-      </footer>
+    </footer>
+    </React.Fragment>
 	);
 };
 
