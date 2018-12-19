@@ -1,5 +1,8 @@
 ## Mark Portfolio
 
-## npm install
+My second iteration of my personal website. 
 
-## gatsby develop
+```sh
+npm install -g gatsby-cli
+gatsby develop
+```
