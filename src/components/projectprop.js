@@ -24,7 +24,7 @@ class ProjectProp extends Component {
             <p> {this.props.desc}</p>
             </Fade>
             <h4> Tech </h4>
-            <Fade up duration="1200">
+            <Fade up duration="800">
             <p> {this.props.stack}</p> 
             </Fade>
           </div>
