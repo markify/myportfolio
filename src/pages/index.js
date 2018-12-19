@@ -10,7 +10,6 @@ const IndexPage = () => (
   <Layout>
     <div className="index">
       <section className="intro container">
-     
       <div className="info ">
         <Fade down>
         <h1> Hi, <br></br>I am Mark Soriano </h1>
@@ -20,9 +19,7 @@ const IndexPage = () => (
         <Link to="/about/" style={{textDecoration:'none'}}>
         <button className="index-btn" href> Get in Touch </button>
         </Link>
-          
       </div>
-      
       <div className="hero-img">
         {/*<img src="" alt="logo"></img>*/}
       </div>
@@ -32,22 +29,18 @@ const IndexPage = () => (
       </div>
       </section>
       <section className="skills">
-
-          <div className="top-tab">
+        <div className="top-tab">
+        </div>
+        <div className="skill-info">
+          <div className="contain container">
+            <Fade up duration="2800">
+            <h1> Tech and Skills </h1>  
+            <h3> I'm always learning new modern technologies. Right now, I am developing a web application using serverless architecture and React.</h3>
+            </Fade>
           </div>
-
-          <div className="skill-info">
-            <div className="contain container">
-              <Fade up duration="2800">
-              <h1> Tech and Skills </h1>
-              
-              <h3> I'm always learning new modern technologies. Right now, I am developing a web application using serverless architecture and React.</h3>
-              </Fade>
-            </div>
-          </div>
-          <Scroll/>
+        </div>
+        <Scroll/>
       </section>
-
       <section className="work">
         <div className="top-tab">
         </div>
@@ -76,7 +69,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
     </div>
   </Layout>
 )

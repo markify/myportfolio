@@ -23,21 +23,17 @@ export class Header extends React.Component {
               <Link to="/projects" className="styled-link" activeClassName="aclass">
                 Projects
               </Link>
-            </li>
-           
+            </li>       
             <Link to="/" className="styled-link" activeClassName="aclass">
             <Pulse forever duration="1400">
               <img src={icon} alt="crypto logo" />
             </Pulse>
             </Link>
-           
             <li>
-          
               <Link to="/about/" className="styled-link" activeClassName="aclass">
                 About
               </Link>
             </li>
-         
           </ul>
           <label className="res-menu">
             <input type="checkbox" defaultChecked={this.state.isToggle} onClick={this.toggleMenu}></input>

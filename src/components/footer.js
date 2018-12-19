@@ -6,9 +6,7 @@ const Footer = () => {
     <React.Fragment>
       <footer>
         <ul className="footer-list">
-          <li> 
-            &#169; Mark Soriano
-          </li> 
+          <li> &#169; Mark Soriano</li> 
           <li>
             <a href="mailto:marksordev@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
           </li>
