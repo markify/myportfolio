@@ -40,7 +40,7 @@ export class ProjectName extends Component {
           github="https://github.com/markify/myportfolio"
           stack="React, Webpack, Javascript "
           date="2018"
-          desc="My second iteration of personal portfolio website in order to incorporate things that I learned in modern web technologies and create my own online presence."
+          desc="My second iteration of personal portfolio website in order to incorporate things that I learned in modern web technologies and create my online presence."
         />
 
         <ProjectProp
@@ -62,7 +62,7 @@ export class ProjectName extends Component {
           github="https://github.com/markify/foodtruckSF"
           stack="Swift, Mapkit, iOS, Mobile"
           date="2018"
-          desc=" User's are able to easily navigate to their favorite restaurant, select the desired food and add to cart. Use google account to save
+          desc=" Users are able to easily navigate to their favorite restaurant, select the desired food and add to cart. Use google account to save
           history of orders. App uses redux to keep track of state of items in the cart"
         />
       </React.Fragment>
