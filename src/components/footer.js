@@ -8,7 +8,7 @@ const Footer = () => {
         <ul className="footer-list">
           <li> &#169; Mark Soriano</li> 
           <li>
-            <a href="mailto:marksordev@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
+            <a href="mailto:marksdevs@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
           </li>
           <li> 
             <a href="https://github.com/markify" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
