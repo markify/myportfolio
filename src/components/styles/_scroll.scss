@@ -8,7 +8,7 @@
   grid-gap: 2px;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  justify-content: center;
+  justify-content: center;  
   margin: 0 auto;
   max-width: 65rem;
   margin-top:30px;
@@ -21,15 +21,9 @@
   font-weight: 600;
   padding: .6em;
   background: rgb(136, 146, 176);
-  transition: background-color .5s, color .5s;
 }
 
 .tech-grid span:hover {
   background-color: #487eb0;
   transform:translate(0,-2px);
-  transition: background-color .5s, color .5s;
-}
-
-.tech-grid i {
-  margin-left: 1em;
 }
