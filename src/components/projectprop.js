@@ -20,7 +20,7 @@ class ProjectProp extends Component {
             <a className="viewp" href={this.props.gitlink} target="_blank" rel="noopener noreferrer"> Github </a>
           
             <h4 className="viewdesc">Description</h4>
-            <Fade right>
+            <Fade duration="2900">
             <p> {this.props.desc}</p>
             </Fade>
             <h4> Tech </h4>
