@@ -3,6 +3,7 @@ import lyrics from '../images/project/lyrics.png'
 import ecohazard from '../images/project/hazardhome.png'
 import cryptod from '../images/project/cryptod.png'
 import port from '../images/project/portfoliov2.png'
+import findfdtr from '../images/project/findfoodtruck.png'
 import { FaGithub } from 'react-icons/fa'
 import ProjectProp from './projectprop'
 
@@ -36,7 +37,7 @@ export class ProjectName extends Component {
         <ProjectProp
           image={port}
           title="Personal Website V2"
-          link="https://lyricstogo-mark.netlify.com/"
+          link="https://marksor.me"
           github="https://github.com/markify/myportfolio"
           stack="React, Webpack, Javascript "
           date="2018"
@@ -56,7 +57,7 @@ export class ProjectName extends Component {
         />
 
         <ProjectProp
-          image={cryptod}
+          image={findfdtr}
           title="Food Truck SF"
           link="https://github.com/markify/foodtruckSF"
           github="https://github.com/markify/foodtruckSF"

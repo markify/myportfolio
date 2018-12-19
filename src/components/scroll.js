@@ -7,9 +7,9 @@ export class Scroll extends React.Component {
           <div className="outer">
             <div className="skillz">
               <div class="tech-grid">
-                <span>HTML5</span>
-                <span>Responsive CSS3</span>
-                <span>JavaScript and ES6</span>
+                <span>HTML and CSS</span>
+                <span>Swift and Flutter</span>
+                <span>JavaScript/ES6</span>
                 <span>git</span>
                 <span>React</span>
                 <span>Sass</span>

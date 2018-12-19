@@ -14,7 +14,7 @@ const IndexPage = () => (
         <Fade down>
         <h1> Hi, <br></br>I am Mark Soriano </h1>
         <h3> I make excellent modern web and mobile applications.</h3>
-        <p>  I'm a software engineer based in San Francisco. Currently working as a freelance front end developer and flutter mobile developer. </p>
+        <p>  I'm a developer based in San Francisco. Currently working as a freelance front end web developer and mobile developer. </p>
         </Fade>
         <Link to="/about/" style={{textDecoration:'none'}}>
         <button className="index-btn" href> Get in Touch </button>

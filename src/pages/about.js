@@ -16,7 +16,7 @@ const SecondPage = () => (
       <div className="col-md-6 bio-ct">
         <p className="bio">
           I'm a front end and mobile developer.
-          I started my journey as self-taught game developer then transitioned into web and mobile.
+          I started my journey as self-taught game developer then transitioned into web and mobile platform.
           Ever since then I found passion in web and mobile technologies. In my free time, I spend hours honing my skills
           to become a better software engineer. Building new projects and challenging myself to perfect my craft.
         </p>
