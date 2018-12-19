@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
-import './styles/scroll.scss'
+import React from 'react'
 
 export class Scroll extends React.Component {
   render() {
-
     return (
         <React.Fragment>
           <div className="outer">

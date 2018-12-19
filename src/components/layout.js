@@ -2,10 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
 import Header from './header'
 import Footer from './footer'
-import './styles/layout.css'
+import './styles/main.scss'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -27,13 +26,10 @@ const Layout = ({ children }) => (
           <Header siteTitle={data.site.siteMetadata.title} />
             <div className="">
               <div style={{ marginTop:'100px'}}>
-            {children}
+              {children}
               </div>
             </div>  
-            
-        </React.Fragment>
-        <React.Fragment>
-        <Footer/>
+          <Footer/>
         </React.Fragment>
       </>
     )}

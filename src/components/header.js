@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import './styles/hamburger.css'
-import './styles/container.css'
 import icon from '../images/icon.png'
-import Pulse from 'react-reveal/Fade'
+import Pulse from 'react-reveal/Pulse';
 export class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -21,24 +19,18 @@ export class Header extends React.Component {
       <React.Fragment>
         <nav className="navb">
           <ul className="links">
-        
-            {/*<li>
-              <Link to="/" className="styled-link" activeClassName="aclass">
-                Home
-              </Link>
-            </li>
-            */}
             <li>
               <Link to="/projects" className="styled-link" activeClassName="aclass">
                 Projects
               </Link>
-          
             </li>
-            <Pulse forever duration="2900">
+           
             <Link to="/" className="styled-link" activeClassName="aclass">
+            <Pulse forever duration="1400">
               <img src={icon} alt="crypto logo" />
-            </Link>
             </Pulse>
+            </Link>
+           
             <li>
           
               <Link to="/about/" className="styled-link" activeClassName="aclass">
@@ -54,12 +46,6 @@ export class Header extends React.Component {
               </span>
             </span>
             <ul>
-              {/* <li>
-                <Link to="/" onClick={this.toggleMenu} className="ham-links" >
-                  Home
-                </Link>
-              </li>
-              */}
               <li>
                 <Link to="/projects" onClick={this.toggleMenu} className="ham-links">
                   Projects

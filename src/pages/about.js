@@ -1,9 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import '../components/styles/about.css'
-import '../components/styles/grid.scss'
 import Fade from 'react-reveal/Fade'
+
 const SecondPage = () => (
   <Layout>
     <div  className="container" style={{ padding: '20px', }}>

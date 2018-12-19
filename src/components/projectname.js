@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
-import ProjectProp from './projectprop'
-
 import lyrics from '../images/project/lyrics.png'
 import ecohazard from '../images/project/hazardhome.png'
 import cryptod from '../images/project/cryptod.png'
-
-
-
 import { FaGithub } from 'react-icons/fa'
-import './styles/projectprop.css'
+import ProjectProp from './projectprop'
+
 export class ProjectName extends Component {
   render() {
     return (
@@ -28,7 +24,7 @@ export class ProjectName extends Component {
         <ProjectProp
           image={cryptod}
           tech={null}
-          title="Cryptodate.net"
+          title="Cryptodate"
           stack="React.js, Responsive Design, Webpack, Node.js"
           date="2018"
           desc="A web application to calculate crypto profits from past to present. I wanted to calculate my profits I made from my bitcoin investment. 
